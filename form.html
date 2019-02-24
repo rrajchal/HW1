@@ -1,0 +1,100 @@
+<!--
+Rajesh Rajchal
+HW1
+CSCI 3308
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<!-- Bootstrap links copied from w3schools -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+		<h1>This is a sample form.</h1>
+
+		<br>
+		
+		<form>
+		  <p><b>Nick Name</b></p>
+		  <input class="form-control" type="text" name="nickName" placeholder="Enter NickName">
+		  <br><br>
+
+		  <p><b>Email address</b></p>
+		  <input class="form-control" type="text" name="email" placeholder="Enter email">
+		  <br><br>
+
+		  <p><b>Password</b></p>
+		  <input class="form-control" type="password" name="password" placeholder="Password">
+		  <br><br>
+
+
+		  <p>Gender</p>
+		  <input type="radio" name="gender" value="Male" checked> Male<br>
+		  <input type="radio" name="gender" value="female"> Female<br>
+		  <input type="radio" name="gender" value="other"> Other<br>
+		  <input type="radio" name="gender" value="prefer"> Prefer not to say<br>
+		  <br>
+
+		  <p>Security Question</p>
+		  <select class="form-control" name="securityQuestion">
+			<option value="pet">What is your favorite type of pet?</option>
+		    <option value="car">Which one is your first car?</option>
+		    <option value="born">Which city you were born?</option>
+		    <option value="fun">What is your favorite fun activity?</option>
+		    <option value="visit">What is your favorite place?</option>
+		  </select>
+
+		  <p>Security Question</p>
+		  <input class="form-control" type="text" name="securityAnswer" placeholder="Security Answer">
+		  <br><br>
+
+		  <p><b>Favorite Programming Languages</b></p>
+		  <label class="checkbox-inline">
+		  	<input type="checkbox" value="">C/C++ &nbsp&nbsp&nbsp
+		  </label>
+		  <label class="checkbox-inline">
+		  	<input type="checkbox" value="">Java &nbsp&nbsp&nbsp
+		  </label>
+		  <label class="checkbox-inline">
+		  	<input type="checkbox" value="">Javascript &nbsp&nbsp&nbsp
+		  </label>
+		  <label class="checkbox-inline">
+		  	<input type="checkbox" value="">Python &nbsp&nbsp&nbsp
+		  </label>
+		  <label class="checkbox-inline">
+		  	<input type="checkbox" value="">GO &nbsp&nbsp&nbsp
+		  </label>
+		  <label class="checkbox-inline">
+		  	<input type="checkbox" value="">C# &nbsp&nbsp&nbsp
+		  </label>
+		  <label class="checkbox-inline">
+		  	<input type="checkbox" value="">PHP
+		  </label>
+			
+		<br>
+		<br>
+
+		<p><b>Additional Information</b></p>
+		<p>About Me</p>
+		<textarea class="form-control" name="message" rows="10" cols="30">
+		</textarea>
+		<br>
+		<br>
+
+		<input type="submit" value="submit" class="btn btn-primary">
+		<br>
+		<br>
+		<br>
+		<br>
+		</form>
+	</div>
+	</body>
+</html>
